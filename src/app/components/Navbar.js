@@ -59,7 +59,7 @@ export default function Navbar() {
             onClick={handleOpenModal}
             className="bg-theme1 hover:bg-theme1h font-poppins text-whitecolor text-[10px] md:text-sm rounded-sm  leading-none font-medium lg:px-3 px-1 py-2.5"
           >
-            Book An Appointment
+            Book Appointment
           </button>
         </div>
       </div>
