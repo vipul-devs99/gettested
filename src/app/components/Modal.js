@@ -73,11 +73,13 @@ const Modal = ({ isOpen, onClose }) => {
             message: "",
           });
 
-          toast.success(responseData.data.message, {
-            style: { backgroundColor: "#fff", color: "#257378" },
-          });
+          // toast.success(responseData.data.message, {
+          //   style: { backgroundColor: "#fff", color: "#257378" },
+          // });
+
           onClose();
           setIsClicked(false);
+          window.location.href="/thank-you";
         }
       } catch (error) {
         console.error("Error submitting form:", error);
@@ -245,7 +247,7 @@ const Modal = ({ isOpen, onClose }) => {
                 className="bg-theme1 text-white px-4 py-2 rounded-sm hover:bg-theme1h"
                 onClick={handleModalSubmit}
               >
-                Submit
+                  {isClicked ? "Submitting..." : "Submit"}
               </button>
             </div>
           </div>
