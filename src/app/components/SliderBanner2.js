@@ -48,31 +48,10 @@ const SliderBanner2 = () => {
           <div className="container mx-auto px-4  z-20  border-t  bg-gray-50 ">
             <div className="grid lg:grid-cols-2 gap-2 font-raleway  md:p-8 md:pt-0">
             <div className="flex justify-center items-center order-2 pb-8">
-                <div className="text-start">
-                  <h1 className="text-2xl py-2 md:text-4xl font-raleway font-bold">
-                    Easy, Confidential, & Affordable STD Testing
-                  </h1>
-                  <p className=" text-gray-900 text-[14px] md:text-lg font-medium">
-                    Avail our 50% discounted rates NOW for a 100% confidential
-                    and reliable test that you can take in three easy steps:
-                  </p>
-                  <div className=" text-gray-900 text-[14px] md:text-lg font-medium pl-4">
-                    <ul className="list-decimal">
-                      <li>Book your appointment</li>
-                      <li>
-                        Present your anonymous reference number to the
-                        laboratory
-                      </li>
-                      <li>
-                        Wait while we deliver your results in as fast as 24
-                        hours*
-                      </li>
-                    </ul>
+                <div className="text-start my-4">
+                  <div>
+                  <Image width={500} height={600}  priority={true} src="/assets/img/bannerTest1.png" alt="img1" />
                   </div>
-                  <p className=" text-gray-900 text-[14px] md:text-lg font-medium">
-                    We care for your peace of mind. Sit back, relax, and rest
-                    assured that your privacy is guaranteed.
-                  </p>
                   <button
                     onClick={handleOpenModal}
                     className="bg-theme1 hover:bg-theme1h text-whitecolor text-sm rounded-[20px] md:text-sm leading-none font-medium px-6 py-3 mt-5"
@@ -91,22 +70,10 @@ const SliderBanner2 = () => {
           <div className="container mx-auto px-4  z-20  border-t  bg-gray-50">
             <div className="grid lg:grid-cols-2 gap-2 font-raleway  md:p-8 md:pt-0">
               <div className="flex justify-center items-center order-2 pb-8">
-                <div className="text-start">
-                  <h1 className="text-2xl py-2 md:text-4xl font-raleway font-bold">
-                    Your Sexual Health Matters. Get Tested Now!
-                  </h1>
-                  <p className=" text-gray-900 text-[14px] md:text-lg font-medium">
-                    Testing for Sexually Transmitted Diseases (STDs) is a
-                    guaranteed way to stay safe and protect your health, as well
-                    as your partner’s. End your worries and get access to the
-                    most trusted, convenient, and affordable comprehensive STD
-                    tests available in the country.
-                  </p>
-                  <p className=" text-gray-900 text-[14px] md:text-lg font-medium">
-                    Select from the wide range of qwik solutions we offer, from
-                    a single HIV screening test to more comprehensive packages
-                    that includes screening for several pathogens.
-                  </p>
+                <div className="text-start my-4">
+                <div>
+                  <Image width={500} height={600}  priority={true} src="/assets/img/bannerTest2.png" alt="img2" />
+                  </div>
                   <button
                     onClick={handleOpenModal}
                     className="bg-theme1 hover:bg-theme1h text-whitecolor text-sm rounded-[20px] md:text-sm leading-none font-medium px-6 py-3 mt-5"
@@ -125,16 +92,10 @@ const SliderBanner2 = () => {
           <div className="container mx-auto px-4  z-20  border-t  bg-gray-50 ">
             <div className="grid lg:grid-cols-2 gap-2 font-raleway  md:p-8 md:pt-0">
               <div className="flex justify-center items-center order-2 pb-8">
-                <div className="text-start">
-                  <h1 className="text-2xl py-2 md:text-4xl font-raleway font-bold">
-                    Let Us Take Care of You
-                  </h1>
-                  <p className=" text-gray-900 text-[14px] md:text-lg font-medium">
-                  Optimize your wellbeing with the wide range of affordable tests and packages that we are offering that will give you an insight to your heart, kidney, liver, thyroid, digestive, and nutritional health.
-                  </p>
-                  <p className=" text-gray-900 text-[14px] md:text-lg font-medium">
-                  Don’t want to leave the comfort of your own house? Don’t worry! We have got a solution for you. With the option of home sample collection, you can wait and relax at home while we deliver your results.
-                  </p>
+                <div className="text-start my-4">
+                <div>
+                  <Image width={500} height={600}  priority={true} src="/assets/img/bannerTest3.png" alt="img3" />
+                  </div>
                   
                   <button
                     onClick={handleOpenModal}
@@ -145,7 +106,7 @@ const SliderBanner2 = () => {
                 </div>
               </div>
               <div className="flex justify-center items-center md:order-2">
-              <Image width={500} height={500} priority={true} style={{width: "auto", height: "auto"}} src="/assets/img/image3.jpg" alt="img3" />
+              <Image width={500} height={500}  style={{width: "auto", height: "auto"}}  src="/assets/img/image3.jpg" alt="img3" />
               </div>
             </div>
           </div>

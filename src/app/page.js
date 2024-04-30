@@ -18,7 +18,7 @@ function page() {
       <Navbar />
       <ToastContainer />
       <HeroSection />
-      <BottomFixedButtons />
+      {/* <BottomFixedButtons /> */}
       <Card />
       <Services service={Service} />
       <Footer />
